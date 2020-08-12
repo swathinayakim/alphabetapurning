@@ -39,9 +39,9 @@ int beta) {
    }
 }
 int main() {
-   int values[] = {10, 23, 78, -6, 13, 10, -34, -23};
+   int values[] = {13, 8, 24, -5, 23, 15, -14, -20};
    int height = getHeight(SIZE(values));
    int result = minmax(height, 0, 0, true, values, INT_MIN, INT_MAX);
-   cout <<"OUTPUT: " << result << "\n";
+   cout <<"Result : " << result << "\n";
    return 0;
 }
